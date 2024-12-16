@@ -1,0 +1,121 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.padding {
+  padding: 3px;
+}
+p1 {
+  font-size: 14px;
+}
+.discription1 {
+  height: 0%;
+  width: 0%;
+}
+.opacity {
+  opacity: 0.5;
+}
+.box {
+  height: 100%;
+  width: 20%;
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.color1 {
+  background-color: #0f6bb3;
+}
+.color2 {
+  background-color: #009fdd;
+}
+.color3 {
+  background-color: tan;
+}
+.row1 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+.row2 {
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+.rectangle {
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+.color4 {
+  background-color: white;
+}
+.color5 {
+  background-color: red;
+}
+.color6 {
+  background-color: green;
+}
+.color7 {
+  background-color: purple;
+}
+.color8 {
+  background-color: black;
+}
+.color9 {
+  background-color: yellow;
+}
+.color10 {
+  background-color: orange;
+}
+.color11 {
+  background-color: grey;
+}
+.rectangle2 {
+  height: 0%;
+  width: 0%;
+}
+.clickable {
+  filter: brightness(85%) drop-shadow(1px 4px 1.5px);
+}
+.clickable:hover {
+  cursor: pointer;
+  filter: brightness(100%) drop-shadow(2px 8px 3px);
+}
+.clickable:active {
+  filter: drop-shadow(0px 0px 3px);
+  transform: scale(0.98);
+}
+.invisible {
+  visibility: hidden;
+}
+@media only screen and (max-width: 400px) {
+  .rectangle2 {
+    height: 33.33%;
+    width: 100%;
+  }
+  .rectangle {
+    height: 33.33%;
+    width: 100%;
+  }
+  .row2 {
+    display: block;
+    height: 75%;
+  }
+  .row1 {
+    height: 12.5%;
+  }
+  p1 {
+    font-size: 10px;
+  }
+}
